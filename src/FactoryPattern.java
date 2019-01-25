@@ -1,3 +1,4 @@
+
 // Factory Pattern
 public class FactoryPattern implements Print {
 	
@@ -5,9 +6,10 @@ public class FactoryPattern implements Print {
 	public void print() {
 		System.out.println("Hello World!");
 	}
-	
-	public static void main(String[] args) {
+
+	public static void main0(String[] args) {
 		FactoryPattern tem = new FactoryPattern();
 		tem.print();
+
 	}
 }
